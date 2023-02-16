@@ -4,7 +4,7 @@
   <name>rosbot</name>
   <version>0.0.0</version>
   <description>ROS2 package for ENGR467</description>
-  <maintainer email="ralph.stirling@wallawalla.edu">MY NAME</maintainer>
+  <maintainer email="ralph.stirling@wallawalla.edu">Ralph Stirling</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

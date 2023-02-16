@@ -35,7 +35,11 @@
       </inertial>
     </link>
     <gazebo reference="body_link">
-      <material>Gazebo/White</material>
+      <visual>
+          <material>
+              <script>Gazebo/White</script>
+          </material>
+      </visual>
     </gazebo>
 
     <joint name="body_to_cover_joint" type="fixed">
@@ -55,7 +59,11 @@
         </material>
       </visual>
       <gazebo reference="cover_link">
-        <material>Gazebo/Red</material>
+          <visual>
+              <material>
+                  <script>Gazebo/Red</script>
+              </material>
+          </visual>
       </gazebo>
 
       <inertial>
