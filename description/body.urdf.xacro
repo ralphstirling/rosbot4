@@ -3,6 +3,13 @@
   <!-- body defining macro -->
   <xacro:macro name="body" params="wheel_radius">
 
+    <link name="base_footprint" />
+    <joint name="base_footprint_joint" type="fixed">
+          <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+          <parent link="base_footprint" />
+          <child link="base_link" />
+    </joint>
+
     <link name="base_link" />
 
     <joint name="base_to_body_joint" type="fixed">
